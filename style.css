@@ -1,0 +1,25 @@
+
+
+/* Center the title */
+h1 {
+  text-align: center;
+}
+
+/* Align images horizontally */
+.image-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Adjust spacing between figures */
+figure {
+  margin: 10px;
+}
+
+/* Limit width of figures */
+figure img {
+  width: 150;
+  height: 200;
+}
